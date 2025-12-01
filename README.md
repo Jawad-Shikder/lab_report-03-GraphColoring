@@ -5,19 +5,25 @@ The algorithm determines whether an undirected graph can be colored using **K co
 
 ---
 
-## Features
+## 📌 Features
 - User input for vertices, edges, and colors
 - Backtracking-based solution
 - Checks valid color assignment for each vertex
 - Prints full color assignment if possible
 - Works for any general undirected graph
 
-## How It Works
+## 🚀 How It Works
 1. Graph stored as an adjacency list  
 2. Recursive backtracking tries assigning colors  
 3. A color is valid only if no connected node has the same color  
 4. If all vertices are colored → success  
 5. Otherwise → coloring not possible
+
+## 📊 Algorithm Used
+1. Backtracking
+2. Constraint Checking
+3. Time complexity: O(Kⁿ) (exponential)
+4. Space complexity: O(n) for color array
 
 ## Case 1 Input
 ```Enter number of vertices: 4
